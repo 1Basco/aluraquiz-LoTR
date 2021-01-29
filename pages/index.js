@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import db from '../db.json'
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
+import IndexPage from '../src/components/Head';
 import QuizBackground from '../src/components/QuizBackground';
 import Widget from '../src/components/Widget'
 
@@ -25,6 +26,7 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return(
     <QuizBackground backgroundImage={db.bg}>
+      <IndexPage></IndexPage>
       <QuizContainer>
         <Widget>
           <Widget.Header>
@@ -36,9 +38,6 @@ export default function Home() {
         </Widget>
 
         <Widget>
-          <Widget.Header>
-            <h1>League of Legends</h1>
-          </Widget.Header>
           <Widget.Content>
            <p>MEME BUZINA</p>
           </Widget.Content>

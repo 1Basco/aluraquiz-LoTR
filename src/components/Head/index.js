@@ -6,7 +6,7 @@ function IndexPage() {
   return (
     <div>
       <Head>
-        <title>Quiz League of Legends</title>
+        <title>Quiz Senhor dos Anéis</title>
 
         <link rel="shortcut icon" href="/favicon.ico" />
 
@@ -22,9 +22,9 @@ function IndexPage() {
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://aluraquiz-base-ten-nu.vercel.app/" />
-        <meta property="twitter:title" content="Quiz League of Legends" />
+        <meta property="twitter:title" content="Quiz Senhor dos Anéis" />
         <meta property="twitter:description" content={db.description} />
-        <meta property="twitter:image" content="https://lvgames.net/wallpaper/Spirit_Blossom_Kindred_LoL_1920x1080.jpg" />
+        <meta property="twitter:image" content="https://c.wallhere.com/photos/ae/d8/1920x1080_px_closeup_Earth_map_middle_rings_text_The_Lord_Of_The_Rings-828748.jpg!d" />
 
       </Head>
     </div>

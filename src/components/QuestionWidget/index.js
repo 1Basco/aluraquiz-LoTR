@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { motion } from 'framer-motion';
 import Widget from '../Widget';
 import Button from '../Button';
 import AlternativesForm from '../AlternativeForm';

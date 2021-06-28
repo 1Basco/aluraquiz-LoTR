@@ -1,28 +1,66 @@
 {
-    "bg": "https://lvgames.net/wallpaper/Spirit_Blossom_Kindred_LoL_1920x1080.jpg",
-    "title": "Quiz League of Legends da Alura",
-    "description": "Teste os seus conhecimentos sobre o LOLzin e vamos ver quantos campeões você realmente conhece",
+    "bg": "https://c.wallhere.com/photos/ae/d8/1920x1080_px_closeup_Earth_map_middle_rings_text_The_Lord_Of_The_Rings-828748.jpg!d",
+    "title": "Quiz de Senhor dos Anéis",
+    "description": "Teste os seus conhecimentos sobre os filmes de Senhor dos Anéis e vamos ver se consegue lembrar de tudo sobre esse universo",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+        "image": "https://media.tenor.com/images/184ed574086d4a9257efa1de54c34435/tenor.gif",
+        "title": "Que personagem o Orlando Bloom interpreta?",
         "description": "Essa é pra aquecer",
-        "answer": 2,
+        "answer": 1,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Aragorn",
+          "Legolas",
+          "Frodo",
+          "Golfimbul"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://media.tenor.com/images/b58239d647b6e0f90ce1934ab8b81783/tenor.gif",
+        "title": "O que Saruman diz que os Uruk-Hais eram no passado?",
+        "description": "Tem que saber o roteiro né",
+        "answer": 2,
+        "alternatives": [
+          "Orcs",
+          "Anões",
+          "Elfos",
+          "Humanos"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/kStl0AHeUuEo0/giphy.gif",
+        "title": "O que Gondor faz para pedir a ajuda de Rohan na guerra?",
+        "description": "Até que ta tranquila",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+          "Acendem os faróis",
+          "Envia um mensageiro",
+          "Passam um zap pra ele",
+          "Pedem para Gandalf entregar tal pedido"
+        ]
+      },
+      {
+        "image": "https://i.pinimg.com/originals/94/4a/5f/944a5f0a1eaaf1f42e86d071d8350a25.gif",
+        "title": "Qual o nome do Rei de Valfenda?",
+        "description": "Sou péssimo com nomes hehehe",
+        "answer": 2,
+        "alternatives": [
+          "Glóin",
+          "Theoden",
+          "Elrond",
+          "Gandalf"
+        ]
+      },
+      {
+        "image": "https://media1.tenor.com/images/2581ccaf83c3c4eae35a5a7e4d708d53/tenor.gif?itemid=12019159",
+        "title": "Quais os outros possíveis nomes dados à Valfenda?",
+        "description": "Tranquilidade pra acabar logo",
+        "answer": 3,
+        "alternatives": [
+          "Imladris e Gondor",
+          "Imladris e Eriador",
+          "Eriador e Rivendel",
+          "Rivendel e Imladris"
         ]
       }
     ],
@@ -31,8 +69,8 @@
     ],
     "theme": {
       "colors": {
-        "primary": "#512da8",
-        "secondary": "#1e88e5",
+        "primary": "#f5142e",
+        "secondary": "#a45454",
         "mainBg": "#171B35",
         "contrastText": "#FFFFFF",
         "wrong": "#FF5722",

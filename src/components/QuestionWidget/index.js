@@ -54,14 +54,6 @@ export default function QuestionWidget({
               setSelectedAlternative(undefined);
             }, 2 * 1000);
           }}
-          as={motion.section}
-          transition={{ delay: 0, duration: 0.5 }}
-          variants={{
-            show: { opacity: 1, y: '0' },
-            hidden: { opacity: 0, y: '100%' },
-          }}
-          initial="hidden"
-          animate="show"
         >
           {question.alternatives.map((alternative, alternativeIndex) => {
             const alternativeId = `alternative__${alternativeIndex}`;
@@ -100,13 +92,3 @@ export default function QuestionWidget({
     </Widget>
   );
 }
-
-/* QuestionWidget.propTypes = {
-  question: PropTypes.number.isRequired,
-  totalQuestions: PropTypes.number.isRequired,
-  questionIndex: PropTypes.number.isRequired,
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-};
-*/

@@ -7,8 +7,6 @@ import QuizContainer from '../src/components/QuizContainer';
 import QuizBackground from '../src/components/QuizBackground';
 import QuestionWidget from '../src/components/QuestionWidget';
 
-// AULA 5 QUIZ, animações 1h 07 min
-
 function ResultWidget({ results }) {
   return (
     <Widget>

@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import { useRouter } from 'next/router';
 import { motion } from 'framer-motion';
 import db from '../db.json';
